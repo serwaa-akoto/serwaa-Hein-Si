@@ -1,11 +1,38 @@
-#nav-bar {
-  display: fixed;
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
 }
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
+#header {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
 }
-.box{
+#title{
+  margin-bottom: 10px;
+}
+#survey-form{
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
 }
+#check-box{
+  display: flex;
+  flex-direction: column;
+}
+#textarea{
+  display: flex;
+  flex-direction: column; 
+}
+#submit{
+  width: 80%;
+  margin-top: 5px; 
+  padding: 15px;
+  background-color: green;
+}
+
+
